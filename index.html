@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Le Petit Labyrinthe</title>
+</head>
+<body>
+    <div class="main-start">
+        <div class="container">
+            <h1>Bienvenue dans le Conte du Petit Poucet</h1>
+            <p>
+                Aides le plus jeune des frères Poucet à trouver la sortie, mais gares à toi, la forêt est grande et dangereuse, tu risques de t'y perdre ou de faire de mauvaises rencontre ... souviens toi, l'ogre est toujours à ta recherche !
+            </p>
+            <button id="toggle" class="toggle">C'est parti !</button>
+            <img class="zqsd" src="img/zqsd.png" alt="">
+        </div>
+    </div>
+    <div id="main-exit" class="main-exit">
+        <div class="container">
+            <h1>Merci d'avoir aidé le Petit Poucet</h1>
+            <p>
+                Bravo ! Tu as réussi à sortir de la forêt sans te faire attraper par l'ogre
+            </p>
+        </div>
+    </div>
+        <canvas></canvas>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="data/exitZone.js"></script>
+    <script src="data/collisions.js"></script>
+    <script src="classes.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
